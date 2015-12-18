@@ -56,11 +56,38 @@ a{
 	Msargin-bottom: 12px;
 }
 
-*/ One Column Layout */
+/* One Column Layout */
 .one-column .contents {
 	text-align: left;
 }
 .one-column p{
 	font-size: 14px;
 	Margin-bottom: 10px;
+}
+.two-column{
+	text-align: center;
+	font-size: 0;
+}
+/*Two column layout*/
+.two-column {
+	text-align: center;
+	font-size: 0;
+}
+.two-column .column {
+	width: 100%;
+	max-width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+.two-column .contents {
+	font-size: 14px;
+	text-align: left;
+}
+.two-column img {
+	width: 100%;
+	max-width: 280px;
+	height: auto;
+}
+.two-column .text {
+	padding-top: 10px;
 }
